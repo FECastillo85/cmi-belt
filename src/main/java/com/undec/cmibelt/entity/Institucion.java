@@ -56,9 +56,10 @@ public class Institucion {
     @OneToMany(mappedBy = "institucion")
     private List<UnidadInstitucional> listaUnidadInstitucional;
 
+    /*
     @OneToMany(mappedBy = "institucion")
     private List<Area> listaArea;
-
+*/
 
     public Long getId() {
         return Id;
@@ -149,6 +150,7 @@ public class Institucion {
         this.listaUnidadInstitucional = listaUnidadInstitucional;
     }
 
+    /*
     public List<Area> getListaArea() {
         return listaArea;
     }
@@ -156,4 +158,7 @@ public class Institucion {
     public void setListaArea(List<Area> listaArea) {
         this.listaArea = listaArea;
     }
+
+
+     */
 }
